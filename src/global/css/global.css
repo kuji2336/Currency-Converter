@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
+button:disabled,
+button[disabled] {
+    opacity: 0.3;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+@font-face {
+    font-family: "BebasReg";
+    src: local("BebasReg"), url("../../fonts/BebasNeue-Regular.ttf");
+    font-display: swap;
+}
